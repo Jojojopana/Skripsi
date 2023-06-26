@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.project.skripsi.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_fragment_TBParu"
+            app:destination="@id/fragment_TBParu" />
+        <action
+            android:id="@+id/action_homeFragment_to_tbtulang"
+            app:destination="@id/tbtulang" />
+        <action
+            android:id="@+id/action_homeFragment_to_tblimfadenitis"
+            app:destination="@id/tblimfadenitis" />
+        <action
+            android:id="@+id/action_homeFragment_to_tburogenital"
+            app:destination="@id/tburogenital" />
+        <action
+            android:id="@+id/action_homeFragment_to_tbsaluranpencernaan"
+            app:destination="@id/tbsaluranpencernaan" />
+        <action
+            android:id="@+id/action_homeFragment_to_tbmeningitis"
+            app:destination="@id/tbmeningitis" />
+        <action
+            android:id="@+id/action_homeFragment_to_tbperitonitis"
+            app:destination="@id/tbperitonitis" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragment_tidakterkenapenyakit"
+            app:destination="@id/fragment_tidakterkenapenyakit" />
+        <action
+            android:id="@+id/action_homeFragment_to_diagnosaFragment"
+            app:destination="@id/diagnosaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_diagnosaActivity"
+            app:destination="@id/diagnosaActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_daftarPenyakitActivity"
+            app:destination="@id/daftarPenyakitActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_daftarObatActivity"
+            app:destination="@id/daftarObatActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_TBParu"
+        android:name="com.project.skripsi.fragment_TBParu"
+        android:label="fragment__t_b_paru"
+        tools:layout="@layout/fragment__t_b_paru" >
+        <action
+            android:id="@+id/action_fragment_TBParu_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tbtulang"
+        android:name="com.project.skripsi.tbtulang"
+        android:label="fragment_tbtulang"
+        tools:layout="@layout/fragment_tbtulang" >
+        <action
+            android:id="@+id/action_tbtulang_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tblimfadenitis"
+        android:name="com.project.skripsi.tblimfadenitis"
+        android:label="fragment_tblimfadenitis"
+        tools:layout="@layout/fragment_tblimfadenitis" >
+        <action
+            android:id="@+id/action_tblimfadenitis_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tburogenital"
+        android:name="com.project.skripsi.tburogenital"
+        android:label="fragment_tburogenital"
+        tools:layout="@layout/fragment_tburogenital" >
+        <action
+            android:id="@+id/action_tburogenital_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tbsaluranpencernaan"
+        android:name="com.project.skripsi.tbsaluranpencernaan"
+        android:label="fragment_tbsaluranpencernaan"
+        tools:layout="@layout/fragment_tbsaluranpencernaan" >
+        <action
+            android:id="@+id/action_tbsaluranpencernaan_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tbmeningitis"
+        android:name="com.project.skripsi.tbmeningitis"
+        android:label="fragment_tbmeningitis"
+        tools:layout="@layout/fragment_tbmeningitis" >
+        <action
+            android:id="@+id/action_tbmeningitis_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tbperitonitis"
+        android:name="com.project.skripsi.tbperitonitis"
+        android:label="fragment_tbperitonitis"
+        tools:layout="@layout/fragment_tbperitonitis" >
+        <action
+            android:id="@+id/action_tbperitonitis_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_tidakterkenapenyakit"
+        android:name="com.project.skripsi.fragment_tidakterkenapenyakit"
+        android:label="fragment_tidakterkenapenyakit" >
+        <action
+            android:id="@+id/action_fragment_tidakterkenapenyakit_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/diagnosaFragment"
+        android:name="com.project.skripsi.DiagnosaFragment"
+        android:label="DiagnosaFragment" >
+        <action
+            android:id="@+id/action_diagnosaFragment_to_fragment_TBParu"
+            app:destination="@id/fragment_TBParu" />
+    </fragment>
+    <activity
+        android:id="@+id/diagnosaActivity"
+        android:name="com.project.skripsi.DiagnosaActivity"
+        android:label="activity_diagnosa"
+        tools:layout="@layout/activity_diagnosa" />
+        <action
+            android:id="@+id/action_diagnosaactivity_to_fragment_tbparu"
+            app:destination="@+id/fragment_TBParu"/>
+    <activity
+        android:id="@+id/daftarPenyakitActivity"
+        android:name="com.project.skripsi.DaftarPenyakitActivity"
+        android:label="DaftarPenyakitActivity" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.project.skripsi.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/daftarObatActivity"
+        android:name="com.project.skripsi.DaftarObatActivity"
+        android:label="activity_daftar_obat"
+        tools:layout="@layout/activity_daftar_obat" />
+</navigation>

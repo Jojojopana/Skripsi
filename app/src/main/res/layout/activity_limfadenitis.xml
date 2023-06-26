@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LimfadenitisActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anda Terkena TB Limfadenitis"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="202dp"
+                android:layout_gravity="center"
+                android:src="@drawable/limfadenitis" />
+
+            <TextView
+                android:text="Penjelasan"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/TBLimfadenitis" />
+
+            <TextView
+                android:text="Solusi"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Sebagai Pertolongan pertama pasien dapat meminum obat yang diantaranya adalah:\n
+1. Obat Rimfapicin\n
+2. Obat Pyrazinamide\n
+3. Ethambutol\n\n
+note: Untuk membeli obat diatas memerlukan resep dokter segeralah periksakan diri anda ke dokter atau rumah sakit terdekat!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/TBLimfaHomeActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp"
+                android:text="Back to home" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <TextView
+        android:gravity="center"
+        android:text="Apakah tulang anda terasa kaku juga?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <RadioButton android:id="@+id/Yatulangterasakaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ya"
+        android:onClick="onRadioButtonClicked"/>
+
+    <RadioButton android:id="@+id/Tidaktulangterasakaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tidak"
+        android:onClick="onRadioButtonClicked"/>
+</RadioGroup>

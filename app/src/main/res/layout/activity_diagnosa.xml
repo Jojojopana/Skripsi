@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiagnosaActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/batuk"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Gejala Yang Anda Rasakan"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:id="@+id/batuk3minggu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batuk lebih dari 3 minggu"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/batukberlendir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batuk berlendir"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/batukdarah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batuk berdarah"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/nyeridada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri dada dan sesak nafas"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/nyeritulangbelakang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rasa nyeri pada tulang atau jaringan sendi"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/tulangterasakaku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tulang belakang terasa kaku"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/tulangbengkak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembengkakan di area sekitar tulang atau sendi"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/tulangbungkuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tulang belakang bungkuk"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/benjolangetahbening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benjolan kelenjar getah bening"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/demam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demam"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/kelelahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelelahan"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/keringat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keringat berlebih di malam hari"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/nyeribuangairkecil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri pada saat buang air kecil"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/seringbuangair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sering merasakan ingin buang air besar (BAB) atau buang air kecil (BAK)"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/nyeripanggul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri panggul"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/testis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembengkakan pada testis (jika pria) atau mengalami infertilitas (perempuan)"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/sakitperut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sakit atau nyeri pada perut"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/hilangnafsumakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hilang nafsu makan"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/diare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diare"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/mualdanmuntah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mual dan muntah"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/perutterasaberat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perut terasa berat"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/sakitkepala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sakit kepala terus menerus"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/nyeritubuh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri di sekujur tubuh"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/sensitif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensitif terhadap cahaya"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/leherkaku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leher terasa kaku"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <CheckBox
+            android:id="@+id/asites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Munculnya cairan di rongga perut (asites)"
+            android:textColor="@color/white"
+            android:background="#4C4C4C"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/diagnosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Diagnosa"
+            android:background="@color/teal_700"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/white">
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

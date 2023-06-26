@@ -1,0 +1,55 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/activity_main.xml" value="0.1609375" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_babdanbak.xml" value="0.17395833333333333" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_batuk.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_batukdarah.xml" value="0.17395833333333333" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_batuklendir.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_cairanperut.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_demam.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_diare.xml" value="0.17395833333333333" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_hilangnafsumakan.xml" value="0.17395833333333333" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_kelelahan.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_kelenjar.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_keringat.xml" value="0.14273504273504273" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_leherkaku.xml" value="0.17395833333333333" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_liver.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_mualmuntah.xml" value="0.17395833333333333" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_nyeribuangair.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_nyeridada.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_nyeripanggul.xml" value="0.17395833333333333" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_nyeriperut.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_nyeriperutbagianatas.xml" value="0.17395833333333333" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_nyeripunggungpinggang.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_nyeritubuh.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_nyeritulangbelakang.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_pembengkakansekitartulang.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_pembengkakantestis.xml" value="0.14358974358974358" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_perutberat.xml" value="0.14358974358974358" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_sakitkepala.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_sensitifcahaya.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_seringbuangair.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_tbparu/dialog_nyeridada.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/dialog_tulangterasakaku.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment__t_b_paru.xml" value="0.16666666666666666" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_home.xml" value="0.1609375" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_tblimfadenitis.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_tbliver.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_tbmeningitis.xml" value="0.1609375" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_tbperitonitis.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_tbsaluranpencernaan.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_tbtulang.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_tburogenital.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/PendeteksiTuberkulosis/app/src/main/res/layout/fragment_tidakterkenapenyakit.xml" value="0.175" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
